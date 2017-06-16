@@ -1,14 +1,19 @@
 {
   "name": "google-translation",
-  "version": "0.0.3",
-  "description": "Google Translator module for node.js",
-  "main": "./lib/index",
+  "version": "0.0.5",
+  "description": "google translate module",
+  "main": "index.js",
+  "dependencies": {
+    "googleapis": "^19.0.0",
+    "node-localstorage": "^1.3.0"
+  },
+  "devDependencies": {},
   "scripts": {
-    "test": "none"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/seouldeveloper/google-translation.git"
+    "url": "git+https://github.com/seouldeveloper/google-translation.git"
   },
   "keywords": [
     "google",
@@ -16,38 +21,10 @@
     "translator",
     "translation"
   ],
-  "author": {
-    "name": "Minseok Shim",
-    "email": "seouldeveloper.com@gmail.com"
-  },
+  "author": "Minseok Shim",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/seouldeveloper/google-translation/issues"
   },
-  "homepage": "https://github.com/seouldeveloper/google-translation",
-  "gitHead": "8be699da410da748e47d0a8e1e1cdff123a0cae8",
-  "_id": "google-translation@0.0.1",
-  "_shasum": "ef0e500c11ddc4b7ffc64a3e4373c02a9688ad91",
-  "_from": "google-translation@*",
-  "_npmVersion": "1.4.28",
-  "_npmUser": {
-    "name": "Minseok Shim",
-    "email": "seouldeveloper.com@gmail.com"
-  },
-  "maintainers": [
-    {
-      "name": "Minseok Shim",
-      "email": "seouldeveloper.com@gmail.com"
-    }
-  ],
-  "dist": {
-    "shasum": "ef0e500c11ddc4b7ffc64a3e4373c02a9688ad91",
-    "tarball": "http://registry.npmjs.org/google-translation/-/google-translation-0.0.1.tgz"
-  },
-  "directories": {},
-  "_resolved": "https://registry.npmjs.org/google-translation/-/google-translation-0.0.1.tgz",
-  "dependencies": {
-    "googleapis": "^19.0.0",
-    "node-localstorage": "^1.3.0"
-  }
+  "homepage": "https://github.com/seouldeveloper/google-translation#readme"
 }
