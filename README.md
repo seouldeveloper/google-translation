@@ -1,4 +1,4 @@
-bing-translate
+google-translate
 ==============
 
 Just Google translator module for node.js
